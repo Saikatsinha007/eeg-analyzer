@@ -1,4 +1,9 @@
-streamlit>=1.37.0
-scikit-learn>=1.5.1
-scikit-plot>=0.3.7
-matplotlib>=3.6.2
+
+
+streamlit  # Use the version you are working with
+mne        # Or the specific version of MNE you need
+numpy      # Ensure compatibility with your code
+pandas
+plotly     # For interactive plots
+scikit-learn # In case you're using ML models
+matplotlib  # Optional, for additional plotting features
